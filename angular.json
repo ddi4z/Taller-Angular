@@ -31,6 +31,9 @@
             "scripts": []
           },
           "configurations": {
+            "github-pages": {
+              "baseHref": "/AngularExamplesAndSnippets/"
+            },
             "production": {
               "budgets": [
                 {
