@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="row">
+      <div class="col-12 col-lg-6">
+          <table class="table table-striped">
+              <thead>
+                  <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Channel</th>
+                      <th scope="col">Seasons</th>
+                  </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let serie of series">
+                  <td>{{serie.id}}</td>
+                  <td class="show-card">{{serie.name}}</td>
+                  <td>{{serie.channel}}</td>
+                  <td>{{serie.seasons}}</td>
+                </tr>
+              </tbody>
+          </table>
+      </div>
+      <p>Seasons average: {{promedio}}</p>
+  </div>
+
+</div>
