@@ -32,7 +32,7 @@
           },
           "configurations": {
             "github-pages": {
-              "baseHref": "/AngularExamplesAndSnippets/"
+              "baseHref": "/https://ddi4z.github.io/Taller-Angular//"
             },
             "production": {
               "budgets": [
